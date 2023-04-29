@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+
+}
+p{
+  font-size: 1.25rem;
+}
+
+#top_nav {
+  background-color: #daac00;
+  padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 20px;
+  padding-left: 29px;
+}
+
+#search_box {
+  background-color: #fcc302;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  left: 40px;
+  box-shadow: 5px 10px 11px 0px rgba(0, 0, 0, 0.0980392157);
+}
+#search_box::-moz-placeholder {
+  color: #fff;
+}
+#search_box:-ms-input-placeholder {
+  color: #fff;
+}
+#search_box::placeholder {
+  color: #fff;
+}
+
+#search_btn {
+  position: relative;
+  z-index: 99;
+  background-color: #00bec9;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+}
+/* for i pad*/
+@media only screen and (max-width: 992px){
+  #search_form{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -25px;
+  }
+}
+/* for i phone */
+@media only screen and (max-width: 500px){
+  #search_form{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+  }
+}
+  /* banner */
+#banner{
+  background-color: #fec900;
+  padding-bottom: 20px;
+}
+ #banner-text h1{
+  color: white;
+  font-size: 70px;
+  margin-top: 100px;
+ }
+ #banner-text p{
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+ }
+ #banner-btn-1{
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: white;
+ }
+ #banner-btn-2{
+  border: 2px solid white;
+  color: white;
+  margin-left: 15px;
+ }
+ @media only screen and (max-width :1300px) {
+  #banner-text h1{
+    font-size: 50px;
+  
+   }
+   #banner{
+    padding-bottom: 70px;
+   }
+  
+ }
+ @media only screen and (max-width :940px) {
+  #banner-text h1{
+    font-size: 40px;
+  
+   }
+   #banner-img img {
+    padding-top: 70px;
+   }
+  
+ }
+ /* service */
+ #service-text{
+  padding-top: 10%;
+  padding-bottom: 5%;
+ }
+ #service-text h1{
+  font-size: 3.5rem;
+ }
+ #service-btn{
+  color: white;
+  background-color: #fcc302;
+  border: 2px solid #fcc302;
+ }
+ #service-img{
+  padding: 5%;
+ }
+ @media only screen and (max-width :940px) {
+  #service-img{
+    padding-top: 10%;
+  }
+  
+ }
+
+ /* baner-2 */
+ .banner-2{
+  background-color: #fcc302;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+ }
+ .banner-2-text h1{
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-top: 5%;
+  
+ }
+ .banner-2-img-p{
+  margin: auto;
+  width: 80%;
+ }
+ /* banner-3 */
+ .price h3{
+ margin-top: 10%;
+ font-weight: bolder;
+ font-size: 2rem;
+ }
+ .btn-style{
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 15%;
+ }
+ /* team section */
+ .team-text{
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 30px;
+ }
+ .icon i {
+  color: white;
+  background-color: #fcc302;
+  border: 2px solid #fcc302;
+  border-radius: 50%;
+  font-size: 1..5rem;
+  margin: 1.5%;
+  padding: 1%;
+ }
+ #team{
+  padding-bottom:8%;
+ }
+  
+ /* counter  */
+
+ #counter-section{
+  background: url("../img/background.png");
+  color: white;
+  font-size: 2rem;
+ }
+ #counter-section i{
+  font-size: 4rem;
+  font-weight: bold;
+   line-height:10.5rem;
+ }
+
+ /* recent post section */
+ 
+ #recent-post{
+  padding-bottom: 10%;
+  padding-top:2%;
+ }
+ #recent-post p{
+  width: 60%;
+  font-size: 1.25rem;
+  margin: auto;
+  margin-bottom: 2%;
+
+ }
+ .post-details{
+  padding: 2%;
+  border: 1px solid rgb(185, 185, 185);
+  border-top: none;
+ }
+ .post-details h5, .post-details p a{
+  color: #00bec9;
+  text-decoration: none;
+  font-weight: 500;
+ }
+ /* footer section */
+ #footer{
+  background-color: #343434;
+  padding: 10% 7%;
+  color: white;
+ }
+#footer a{
+  color: white;
+    text-decoration: none;
+}
+#footer-form{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#footer-search{
+  background-color: #fcc302;
+  border: none;
+  padding: 2%;
+ width: 80%;
+ position: relative;
+ left: 10px;
+}
+#footer-search-btn{
+  background-color: #00bec9;
+z-index: 11111;
+   padding: 2%;
+   width: 15%;
+   border: none;
+   color: white;
+}
+.social-icon{
+  font-size: 1.5rem;
+  margin: 1.5%;
+  padding: 2%;
+  color: black;
+  background-color: white;
+  border: 2px solid white ;
+  border-radius: 50%;
+}
+/* contact page  */
+#contact{
+  background-color: #fcc302;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.address{
+  padding: 0 90px;
+  margin: 0 10px;
+  width: calc(100% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.contact_input{
+  width: 100%;
+  padding: 1%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  outline: 0;
+  border: 2px solid #eaae00;
+  background: transparent;
+  font-size: 15px;
+  color: white;
+}
+.contact_label{
+  height: 100%;
+  position: absolute;
+  left:0;
+  top:0;
+  padding-left: 1%;
+  padding-top: 6%;
+  font-weight: bolder;
+  cursor: text;
+  transition: 0.2s;
+}
+.contact_button{
+  padding: 10px 0;
+  margin-top: 1%;
+  color: white;
+  background: transparent;
+  font-weight: bold;
+  border: 2px solid #eaae00;
+  width: 100%;
+  cursor: pointer;
+}
+.contact_input:focus~.contact_label,
+.contact_input:valid~.contact_label{
+  /* valid fr stopping there when we remove curser after writhing  */
+  top: -45px;
+  transform: scale(1.2);
+  color: #00bec9;
+  font-size: 16px;
+}
+
+@media only screen and (max-width :700px){
+  .contact_input:focus~.contact_label,
+  .contact_input:valid~.contact_label{
+    /* valid fr stopping there when we remove curser after writhing  */
+    top: -30px;
+    transform: scale(1);
+    color: #00bec9;
+    font-size: 16px; 
+    
+}
+}
+.address-icon{
+  font-size: 28px;
+  background: #eaae00;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.address:hover ,  .adddress-icon{
+  color: #00bec9;
+  transform: scale(1.6);
+}
+
+.address p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  font-weight: bold;
+  transition: 0.3s linear;
+}
+
+.address:hover p{
+  /* max-height: 40px; */
+  opacity: 1;
+}
+
+.address-info{
+  display: flex;
+  width: 100%;
+  /* max-width: 1200px; */
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
